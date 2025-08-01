@@ -13,7 +13,7 @@ const SENSOR_THRESHOLDS = {
 
 // 🔗 Configuración IFTTT
 const IFTTT_WEBHOOK_URL = 'https://maker.ifttt.com/trigger/sensor_alert/json/with/key/dftHPVy4tahhqaT9x--9FueP8FIWEaJN8hHqmRImBoH';
-const DEVICES_SERVICE_URL = process.env.DEVICES_SERVICE_URL || 'http://devices-service:3003'; // Ajustar según tu configuración
+const DEVICES_SERVICE_URL = 'https://clever-upliftment-production.up.railway.app'; // Ajustar según tu configuración
 
 // 🔒 Sistema de cooldown para evitar spam de alertas
 const alertCooldowns = new Map<string, number>();
